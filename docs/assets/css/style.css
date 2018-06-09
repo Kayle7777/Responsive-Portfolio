@@ -166,8 +166,9 @@ footer {
 @media screen and (max-width: 640px) {
   #myName {
     float:none;
-    width:100%;
+    width:auto;
   }
+
   .buttonContainer {
     float:none;
     width:100%;
@@ -177,10 +178,18 @@ footer {
     float:left;
   }
   .wrapper {
+    width:620px;
+    max-width: 100%;
+    border: 1px;
+    margin: 10px;
   }
   footer {
     position:relative;
+    padding: 0;
+    width:640px;
     margin-top: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
   }
   #textarea {
     height: 100px;
